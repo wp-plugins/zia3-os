@@ -1,4 +1,4 @@
-=== ZZia3 Opening Sequence ===
+=== Zia3 Opening Sequence ===
 Contributors: zia3wp
 Donate link: http://plugins.zia3.com/donate/
 Tags: onpening sequence, fullscreen splash, background slideshow, zia3, zia3 slideshow, css fullscreen slideshow, css slideshow, responsive, shortcode, landing page, fullscreen, coming soon
