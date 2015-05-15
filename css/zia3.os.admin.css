@@ -1,0 +1,106 @@
+#zia3_os_thumbnails img {
+	height: 150px;
+	width: 150px;
+	box-shadow: 0 1px 2px rgba(0,0,0,.2);
+	padding: 5px;
+	background-color: #fff;
+	margin-right: 25px;
+	margin-top: 20px
+}
+#image_descriptions li, #image_titles li {
+	width: 210px;
+	float: left;
+	padding-right: 25px
+}
+#image_descriptions ul, #image_titles {
+	clear: both
+}
+#image_titles {
+	font-weight: 700
+}
+#save {
+	clear: both;
+	float: left;
+	margin-top: 20px
+}
+#zia3_os_thumbnails img {
+	-webkit-animation: fadein 1s;
+	-moz-animation: fadein 1s;
+	-ms-animation: fadein 1s;
+	-o-animation: fadein 1s;
+	animation: fadein 1s
+}@keyframes fadein{
+from {
+	opacity: 0
+}
+to {
+	opacity: 1
+}}@-moz-keyframes
+fadein {from{
+	opacity: 0
+}
+to {
+	opacity: 1
+}}@-webkit-keyframes
+fadein {from{
+	opacity: 0
+}
+to {
+	opacity: 1
+}}@-ms-keyframes
+fadein {from{
+	opacity: 0
+}
+to {
+	opacity: 1
+}}@-o-keyframes
+fadein {from{
+	opacity: 0
+}
+to {
+	opacity: 1
+}}
+input[type=text], select {
+	display: block;
+	width: 650px;
+	max-width: 100%
+}
+#zia3_os_generated_shortcode_container, #zia3_os_shortcode_generator, #zia3_os_parameter_explaination {
+	display: none
+}
+#zia3_os_thumbnails .thumbnail {
+	width: 180px;
+	float: left
+}
+.inside {
+	overflow: hidden
+}
+.zia3_os_remove {
+	visibility: hidden;
+	border-bottom-left-radius: 3px;
+	border: 2px;
+	text-decoration: none;
+	background-color: #FFF;
+	color: #000;
+	font-weight: 700;
+	font-size: 18px;
+	position: relative;
+	top: -146px;
+	right: -124px;
+	border-color: red;
+	padding: 12px
+}
+.zia3_os_remove:hover {
+	cursor: hand;
+	cursor: pointer
+}
+#zia3_os_shortcode_generator h3, #zia3_os_parameter_explaination h3 {
+	cursor: auto !important
+}
+.thumbnail:hover .zia3_os_remove {
+	visibility: visible
+}
+.thumbnail:hover {
+	cursor: move
+}
+
